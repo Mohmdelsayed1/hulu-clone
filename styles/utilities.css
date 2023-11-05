@@ -48,3 +48,16 @@
     text-decoration-color: white;
   }
   
+  hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 1200px;               
+    background-color:white;
+    height: 1px;
+  }
+
+  p{
+    color: white;
+  }
+  
