@@ -1,3 +1,6 @@
+
+/* The first section */
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -44,48 +47,48 @@
   background-color: rgb(6, 1, 1);
 }
 
-.second-sec {
-  display: flex;
-  flex-direction: column;
-}
-
 .first-offer {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin-top: 10%;
-  /* margin-left: 23%; */
-  /* margin-right: 10%; */
-  /* width: 80%; */
+  margin-top: 80px;
 }
 
+/* The hero plans */
 .first-plan {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 20%;
+  gap: 20px;
 }
 
 .dis {
-  transform: scale(1);
+  width: 161.4px;
+  height: 45.54;
+  object-fit: cover;
 }
 
 .dis1 {
-  transform: scale(0.5);
+  width: 241.1px;
+  height: 54.36;
+  object-fit: cover;
 }
 
 .duo {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  flex-grow: 1;
+  gap: 20px;
 }
 
 .trio {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  flex-grow: 1;
+  gap: 20px;
 }
 
 .getit {
@@ -99,7 +102,7 @@
   color: #020202;
   text-shadow: 1px 1px 1px #000;
   border-radius: 10px;
-  background-color: rgb(0, 220, 62);
+  background-color: #1ce783;
 }
 .getit:hover {
   opacity: 0.5;
@@ -108,8 +111,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 40px;
+  margin-top: 50px;
 }
 
+
+/* first text */
 .attract1 {
   display: flex;
   flex-direction: column;
@@ -133,6 +140,7 @@
   text-align: center;
 }
 
+/* library */
 .thirdsec {
   display: flex;
   /* flex-wrap: wrap; */
@@ -182,6 +190,7 @@
   position: relative;
 }
 
+/* 2nd text */
 .attract2{
     display: flex;
     flex-direction: column;
@@ -231,6 +240,8 @@
     background-color: rgb(0, 220, 62);
   }
 
+
+/* features section */
 .features{
   display: flex;
   flex-direction: column;
@@ -274,11 +285,13 @@
   padding-right: 20%;
 }
 
+/* plans details */
 .fifthsec{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 50px;
 }
 
 .head{
@@ -300,7 +313,7 @@
   display: flex;
   flex-grow: 2;
   margin-top: 20px;
-  gap: 10px;
+  gap: 30px;
 }
 
 .base{
@@ -435,8 +448,139 @@ input:checked + .slider:before {
   margin-top: 7%;
 }
 
+.tab{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 
+
+.tabele{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.tic2{
+  padding-right: 200px;
+}
+
+.tic1{
+  margin-left: 30%;
+}
+.tic22{
+  margin-left: 6%;
+}
+.tic3{
+  margin-left: 14%;
+}
+.tic4{
+  margin-left: 14.5%;
+}
+.tic5{
+  margin-left: 4%;
+}
+.tic6{
+  margin-left: 25%;
+}
+.tic7{
+  margin-left: 12%;
+}
+.tic8{
+  margin-left: 21%;
+}
+.tic9{
+  margin-left: 24%;
+}
+.star{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 70px;
+}
+.addon{
+  margin: 20px 0px;
+}
+
+/* The final section */
+.footer{
+  background-color: #e8eaed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.father{
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.father>hr{
+  opacity: 0.2;
+  width: 85%;
+}
+
+.cols{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+  width: 85%;
+}
+
+.col1{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.col1>a{
+  text-decoration: none ;
+  color: #586174;
+}
+.col1>p{
+  color: #586174;
+}
+
+.social{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  margin: 30px 0px;
+  width: 85%;
+}
+
+.soc{
+  display: flex;
+  gap:40px;
+}
+
+.copyrights{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0px;
+  width: 85%;
+}
+
+.copyrights>a{
+  text-decoration: none ;
+  color: #586174;
+}
+.copyrights>p{
+  color: #586174;
+}
 
 
 
